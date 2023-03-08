@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>GetYourGuide Activities</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'Current title filter: ' + ${title}" />
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>SpecialOffer</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="activity : ${activities}">
+            <td th:text="${activity.id}"></td>
+            <td th:text="${activity.title}"></td>
+            <td th:text="${activity.price} + ${activity.currency}"></td>
+            <td th:text="${activity.specialOffer}"></td>
+            <td th:text="${activity.rating}"></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

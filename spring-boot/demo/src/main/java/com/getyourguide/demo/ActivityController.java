@@ -7,6 +7,7 @@ import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -14,6 +15,7 @@ import java.io.IOException;
 import java.util.List;
 
 @Controller
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ActivityController {
     @Autowired
     private ResourceLoader resourceLoader;

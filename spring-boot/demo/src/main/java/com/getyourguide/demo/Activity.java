@@ -1,8 +1,12 @@
 package com.getyourguide.demo;
 
-import lombok.Data;
+import lombok.*;
 
 @Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Activity {
     private Long id;
     private String title;

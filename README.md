@@ -1,7 +1,7 @@
 # Objective
 We want to assess your skills as a generalist software engineer.
 We are looking for people who are able to work on a variety of projects and technologies.
-We are not looking for people who are experts in a specific technology or domain only.
+We are not explicitly looking for expertise in a specific technology or domain. An ideal candidate would be able to work with a variety of technologies.
 
 We would like you to build a web application that allows users to search for activities.
 The project is meant to be a simple application that you can build in a few hours.

@@ -20,7 +20,7 @@ You can use them to speed up the implementation, or you can start from scratch c
  * You need to provide a client application consuming the API exposed by the previous application and implement a UI.
  * The client should display the list of activities to the user and allow the user to search for activities by title by providing an input field.
  * You need to decide if the filtering logic should be implemented on the client or on the server.
- * Please add instructions on how to run locally your project.
+ * Please add instructions on how to run locally your project and notes on your architectural choices.
 
 # How to submit your work
 Please fork this repository and send us a link to your forked repository or a zip file containing your work.
@@ -30,5 +30,5 @@ Please fork this repository and send us a link to your forked repository or a zi
 # Presentation
  * We will ask you to present your work. Please be prepared to present your work, demo it, and explain your choices.
  * We will ask clarifying questions about your code and your design choices.
- * In addition to the presentation we might ask you to refactor the code, add addional features, or fix bugs:
+ * In addition to the presentation we will ask you to refactor the code, add addional features, or fix bugs:
 please be prepared to share your screen during the interview and to code live with us.

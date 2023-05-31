@@ -24,6 +24,7 @@ You can use them to speed up the implementation, or you can start from scratch c
 
 # How to submit your work
 Please fork this repository and send us a link to your forked repository or a zip file containing your work.
+We will grade your project after submission and eventually invite you for a remote live interview with our engineers.
 
 :warning: **Make sure not to publish your work on a public repository.**
 

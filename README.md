@@ -31,6 +31,7 @@ You can use them to speed up the implementation, or you can start from scratch c
     - the activity's supplier name
 - You need to decide if the filtering logic should be implemented on the client or on the server.
 - Please add instructions on how to run your project locally and notes on your architectural decisions.
+- Please also document any features/improvements you left out in favor of time, preferably with sufficient details on "what, why & how".
 
 # How to submit your work
 

@@ -1,7 +1,10 @@
-package com.getyourguide.demo;
+package com.getyourguide.demo.controller;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.getyourguide.demo.model.Activity;
+import com.getyourguide.demo.service.ActivitiesService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.ResponseEntity;
@@ -16,9 +19,13 @@ import java.util.List;
 
 @Controller
 @CrossOrigin(origins = "*", allowedHeaders = "*")
+@Slf4j
 public class ActivityController {
     @Autowired
     private ResourceLoader resourceLoader;
+
+    @Autowired
+    private ActivitiesService activitiesService;
 
     @GetMapping("/debug")
     public void debug(@RequestParam(name = "title", required = false, defaultValue = "NONE") String title, Model model) {
@@ -36,18 +43,12 @@ public class ActivityController {
         }
     }
     @GetMapping("/activities")
-    public ResponseEntity<List<Activity>> activities() {
-        List<Activity> activities = null;
+    public ResponseEntity<List<Activity>> activities(@RequestParam(name = "title", required = false, defaultValue = "") String title) {
         try {
-            //create ObjectMapper instance
-            ObjectMapper objectMapper = new ObjectMapper();
-            //read JSON file and convert to a list of activities
-            var file = resourceLoader.getResource("classpath:static/activities.json").getFile();
-            activities = objectMapper.readValue(file, new TypeReference<List<Activity>>() {
-            });
-
-            return ResponseEntity.ok(activities);
-        } catch (IOException e) {
+            return ResponseEntity.ok(activitiesService.getActivitiesByTitle(title));
+        } catch (Exception e) {
+            log.error("Could not complete search activities {}", e.getMessage());
+            e.printStackTrace();
             throw new RuntimeException(e);
         }
     }

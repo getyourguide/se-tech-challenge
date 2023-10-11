@@ -37,6 +37,8 @@ You can use them to speed up the implementation, or you can start from scratch c
 
 Please clone this repository and send us a zip file containing your work.
 
+Also, please avoid bundling `node_modules` or other installed dependency directories in your zip file.
+
 ⚠️ **Make sure not to publish your work on a public repository.** ⚠️
 
 We will grade your project after submission and eventually invite you for a remote live interview with our engineers.

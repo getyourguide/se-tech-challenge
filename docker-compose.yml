@@ -2,14 +2,12 @@ version: '3'
 services:
   spring-boot-app:
     build:
-      context: ./spring-boot/demo
-      dockerfile: Dockerfile
+      context: spring-boot-service
     ports:
       - "8080:8080"
 
   vue-app:
     build:
-      context: ./vue/demo
-      dockerfile: Dockerfile
+      context: vue-frontend
     ports:
       - "8081:8080"

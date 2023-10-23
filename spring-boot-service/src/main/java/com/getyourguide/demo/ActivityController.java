@@ -3,6 +3,7 @@ package com.getyourguide.demo;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -27,8 +28,8 @@ public class ActivityController {
             //create ObjectMapper instance
             ObjectMapper objectMapper = new ObjectMapper();
             //read JSON file and convert to a list of activities
-            var file = resourceLoader.getResource("classpath:static/activities.json").getFile();
-            var activities = objectMapper.readValue(file, new TypeReference<List<Activity>>() {
+            var fileInputStream  = new ClassPathResource("static/activities.json").getInputStream();
+            var activities = objectMapper.readValue(fileInputStream, new TypeReference<List<Activity>>() {
             });
             model.addAttribute("activities", activities);
         } catch (Exception e) {
@@ -42,8 +43,8 @@ public class ActivityController {
             //create ObjectMapper instance
             ObjectMapper objectMapper = new ObjectMapper();
             //read JSON file and convert to a list of activities
-            var file = resourceLoader.getResource("classpath:static/activities.json").getFile();
-            activities = objectMapper.readValue(file, new TypeReference<List<Activity>>() {
+            var fileInputStream = new ClassPathResource("static/activities.json").getInputStream();
+            activities = objectMapper.readValue(fileInputStream, new TypeReference<List<Activity>>() {
             });
 
             return ResponseEntity.ok(activities);

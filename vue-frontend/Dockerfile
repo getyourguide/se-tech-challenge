@@ -1,5 +1,5 @@
 # Stage 1: Install dependencies
-FROM node:20-slim AS builder
+FROM node:20 AS builder
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install

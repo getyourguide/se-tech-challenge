@@ -28,8 +28,8 @@ You can use them to speed up the implementation, or you can start from scratch c
     - rating
     - whether it has a special offer or not
     - the activity's supplier name and their location
-- You need to decide if the filtering logic should be implemented on the client or on the server.
-- Please ensure that the project can be run locally with the given Docker compose file with `docker compose up --build`. Modify, add any dependencies as required
+- You need to decide if the filtering logic should be implemented on the client or on the server: please make sure you implement this business logic on the application that you would like to be reviewed.
+- Please ensure that the FULL project can be run locally with the given Docker compose file with `docker compose up --build`. Modify, add any dependencies as required
 - Add notes on your architectural decisions.
 - Please also document any features/improvements you left out in favor of time, preferably with sufficient details on "what, why & how".
 - Additionally, make sure any assumptions you made are noted down.
@@ -43,6 +43,12 @@ Also, please avoid bundling `node_modules` or other installed dependency directo
 ⚠️ **Make sure not to publish your work on a public repository.** ⚠️
 
 We will grade your project after submission and eventually invite you for a remote live interview with our engineers.
+
+Depending on the role you are applying for and your level of expertise, you have the flexibility to focus on implementing either the backend or the client application.
+We welcome submissions with basic functionality on the side of the stack you are less familiar with, allowing us to assess your skills in your preferred domain.
+If you opt for this approach, please specify in your notes which application you would like us to thoroughly review.
+Alternatively, if you feel confident in both the backend and client application, we encourage you to state clearly in your notes that you would like a comprehensive review of both.
+We are excited to thoroughly evaluate your work across the entire stack.
 
 # Presentation
 

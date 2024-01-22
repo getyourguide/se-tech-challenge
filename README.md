@@ -10,7 +10,7 @@ We would like you to build a web application that allows users to search for act
 The project is meant to be a simple application that you can build in a few hours.
 We are not looking for a production-ready application but we will assess your project both in terms of quality (use of best practices/robust architecture) and potential (scalability).
 
-In this repository you will find a list of activities that you can use to build your application (please find the file `activities.json` in the `resources` folder).
+In this repository you will find a list of activities that you can use to build your application (please find the file `activities.json` in the `spring-boot-service/src/main/resources/static` folder).
 
 We bootstrapped in advance 2 skeleton applications for the back end and the front end: you will find a skeleton SpringBoot backend application and a VueJS frontend application.
 

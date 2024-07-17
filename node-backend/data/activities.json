@@ -5,8 +5,7 @@
     "price": 14,
     "currency": "$",
     "rating": 4.8,
-    "specialOffer": false,
-    "supplierId": 1
+    "specialOffer": false
   },
   {
     "id": 6960,
@@ -14,8 +13,7 @@
     "price": 21,
     "currency": "$",
     "rating": 4.8,
-    "specialOffer": false,
-    "supplierId": 2
+    "specialOffer": false
   },
   {
     "id": 80426,
@@ -23,8 +21,7 @@
     "price": 10,
     "currency": "$",
     "rating": 4.6,
-    "specialOffer": false,
-    "supplierId": 2
+    "specialOffer": false
   },
   {
     "id": 23113,
@@ -32,8 +29,7 @@
     "price": 143,
     "currency": "$",
     "rating": 4.6,
-    "specialOffer": false,
-    "supplierId": 2
+    "specialOffer": false
   },
   {
     "id": 26093,
@@ -41,8 +37,7 @@
     "price": 14,
     "currency": "$",
     "rating": 4.5,
-    "specialOffer": false,
-    "supplierId": 1
+    "specialOffer": false
   },
   {
     "id": 97470,
@@ -50,8 +45,7 @@
     "price": 210,
     "currency": "$",
     "rating": 4.3,
-    "specialOffer": false,
-    "supplierId": 200
+    "specialOffer": false
   },
   {
     "id": 15647,
@@ -59,8 +53,7 @@
     "price": 59,
     "currency": "$",
     "rating": 4.8,
-    "specialOffer": false,
-    "supplierId": 250
+    "specialOffer": false
   },
   {
     "id": 26823,
@@ -68,8 +61,7 @@
     "price": 41,
     "currency": "$",
     "rating": 4.5,
-    "specialOffer": true,
-    "supplierId": 1
+    "specialOffer": true
   },
   {
     "id": 58351,
@@ -77,8 +69,7 @@
     "price": 14,
     "currency": "$",
     "rating": 4.5,
-    "specialOffer": false,
-    "supplierId": 250
+    "specialOffer": false
   },
   {
     "id": 75009,
@@ -86,8 +77,7 @@
     "price": 50,
     "currency": "$",
     "rating": 4.6,
-    "specialOffer": true,
-    "supplierId": 2
+    "specialOffer": true
   },
   {
     "id": 19340,
@@ -95,8 +85,7 @@
     "price": 46,
     "currency": "$",
     "rating": 4.9,
-    "specialOffer": true,
-    "supplierId": 250
+    "specialOffer": true
   },
   {
     "id": 13399,
@@ -104,8 +93,7 @@
     "price": 87,
     "currency": "$",
     "rating": 4.8,
-    "specialOffer": false,
-    "supplierId": 200
+    "specialOffer": false
   },
   {
     "id": 86150,
@@ -113,8 +101,7 @@
     "price": 8,
     "currency": "$",
     "rating": 4.3,
-    "specialOffer": false,
-    "supplierId": 1
+    "specialOffer": false
   },
   {
     "id": 40881,
@@ -122,7 +109,6 @@
     "price": 140,
     "currency": "$",
     "rating": 4.5,
-    "specialOffer": false,
-    "supplierId": 2
+    "specialOffer": false
   }
 ]

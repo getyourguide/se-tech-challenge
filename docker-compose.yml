@@ -2,7 +2,7 @@ version: '3'
 services:
   spring-boot-app:
     build:
-      context: spring-boot-service
+      context: node-backend
     ports:
       - "8080:8080"
 
@@ -10,4 +10,4 @@ services:
     build:
       context: vue-frontend
     ports:
-      - "8081:8080"
+      - "8081:8081"

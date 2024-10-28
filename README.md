@@ -8,7 +8,7 @@
 
 We would like you to build a web application that allows users to search for activities.
 The project is meant to be a simple application that you can build in a few hours.
-We are not looking for a production-ready application but we will assess your project both in terms of quality (use of best practices/robust architecture) and potential (scalability).
+We are not looking for a production-ready application but we will assess your project both in terms of quality (user experience/use of best practices/robust architecture) and potential (scalability).
 
 In this repository you will find a list of activities that you can use to build your application (please find the file `activities.json` in the `spring-boot-service/src/main/resources/static` folder).
 
@@ -44,11 +44,11 @@ Also, please avoid bundling `node_modules` or other installed dependency directo
 
 We will grade your project after submission and eventually invite you for a remote live interview with our engineers.
 
-Depending on the role you are applying for and your level of expertise, you have the flexibility to focus on implementing either the backend or the client application.
-We welcome submissions with basic functionality on the side of the stack you are less familiar with, allowing us to assess your skills in your preferred domain.
-If you opt for this approach, please specify in your notes which application you would like us to thoroughly review.
-Alternatively, if you feel confident in both the backend and client application, we encourage you to state clearly in your notes that you would like a comprehensive review of both.
-We are excited to thoroughly evaluate your work across the entire stack.
+Depending on the role you are applying for and your level of expertise, you have the flexibility to put a stronger focus in the implementation of either the backend or the client application. We welcome submissions with basic functionality on the side of the stack you are less familiar with, allowing us to assess your skills in your preferred domain.
+
+If you opt for this approach, please specify in your notes which application you would like us to thoroughly review. Alternatively, if you feel confident in both the backend and client application, we encourage you to state clearly in your notes that you would like a comprehensive review of both. We are excited to thoroughly evaluate your work across the entire stack.
+
+Creativity is also encouraged, and while we do not expect you to add a lot more on top of the basic requirements you have freedom to showcase your skills.
 
 # Presentation
 

@@ -44,7 +44,7 @@ Also, please avoid bundling `node_modules` or other installed dependency directo
 
 We will grade your project after submission and eventually invite you for a remote live interview with our engineers.
 
-Depending on the role you are applying for and your level of expertise, you have the flexibility to put a stronger focus in the implementation of either the backend or the client application. We welcome submissions with basic functionality on the side of the stack you are less familiar with, allowing us to assess your skills in your preferred domain.
+Depending on the role you are applying for and your level of expertise, you have the flexibility to put a stronger focus in the implementation of either the backend or the client application. We require submissions to have basic functionality on the side of the stack you are less familiar with, however you are welcome to focus your efforts on your focus area, allowing us to assess your skills in your preferred domain.
 
 If you opt for this approach, please specify in your notes which application you would like us to thoroughly review. Alternatively, if you feel confident in both the backend and client application, we encourage you to state clearly in your notes that you would like a comprehensive review of both. We are excited to thoroughly evaluate your work across the entire stack.
 
